@@ -29,7 +29,7 @@ Follow the guides in order. Pick the Node guide matching your operating system.
 - [Install the Azure CLI](./install-guide/install-azure-cli-guide.md)
 - [Authenticate against the Azure npm feed](./install-guide/install-azure-npm-feed-guide.md)
 
-## [@tooling] Tooling
+## @tooling Tooling
 
 - [Install the GitHub CLI](./install-guide/install-github-cli-guide.md)
 - [Install Flutter](./install-guide/install-flutter-guide.md)

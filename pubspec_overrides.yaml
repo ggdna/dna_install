@@ -1,0 +1,5 @@
+# Ticket-lokale Auflösung: helix mit der neuen DNA-Syntax, plus die
+# Schwester-Layer aus diesem Ticket-Ordner.
+dependency_overrides:
+  helix:
+    path: ../helix
