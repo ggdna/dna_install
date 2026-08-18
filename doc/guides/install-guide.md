@@ -24,6 +24,11 @@ Follow the guides in order. Pick the Node guide matching your operating system.
 - [Install Node on Windows](./install-guide/install-node-win-guide.md)
 - [Install corepack and pnpm](./install-guide/install-corepack-guide.md)
 
+## Azure
+
+- [Install the Azure CLI](./install-guide/install-azure-cli-guide.md)
+- [Authenticate against the Azure npm feed](./install-guide/install-azure-npm-feed-guide.md)
+
 ## Tooling
 
 - [Install the GitHub CLI](./install-guide/install-github-cli-guide.md)

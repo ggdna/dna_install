@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x354a2b4d9e0a34c1"
+      "hash": "0x557f49854c166d87"
     }
   ],
   "claude": {
@@ -27,7 +27,15 @@
   "instances": [
     {
       "path": "doc/guides/install-guide.md",
-      "hash": "0x1f2b5c9ebde3534a"
+      "hash": "0x63af66f5953969aa"
+    },
+    {
+      "path": "doc/guides/install-guide/install-azure-cli-guide.md",
+      "hash": "0xe0206afa5fc5b085"
+    },
+    {
+      "path": "doc/guides/install-guide/install-azure-npm-feed-guide.md",
+      "hash": "0x902df0b6dc38a92b"
     },
     {
       "path": "doc/guides/install-guide/install-brew-on-mac-guide.md",
