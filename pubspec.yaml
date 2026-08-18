@@ -1,5 +1,5 @@
 name: dna_install
-description: "DNA layer: install guides for editor, node, tooling and Flutter"
+description: "DNA layer: install guides for editor, node, Azure access and tooling"
 version: 0.0.0
 repository: https://github.com/ggdna/dna_install.git
 

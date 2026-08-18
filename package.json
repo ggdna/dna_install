@@ -1,7 +1,7 @@
 {
   "name": "@ggdna/dna-install",
   "version": "0.0.0",
-  "description": "DNA layer: install guides for editor, node, tooling and Flutter",
+  "description": "DNA layer: install guides for editor, node, Azure access and tooling",
   "keywords": [
     "dna",
     "helix",

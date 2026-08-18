@@ -1,3 +1,6 @@
 {
-  "dnaCopyrightHolder": "ggsuite"
+  "dnaCopyrightHolder": "ggsuite",
+  "dnaAzureDevOpsOrg": "<your-azure-devops-organization>",
+  "dnaAzureDevOpsProject": "<your-azure-devops-project>",
+  "dnaAzureNpmFeed": "<your-npm-feed>"
 }

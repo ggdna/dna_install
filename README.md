@@ -14,6 +14,10 @@ machine.
   operating system
 - `dna/doc/guides/install-guide/install-corepack-guide.md` — corepack and
   pnpm
+- `dna/doc/guides/install-guide/install-azure-cli-guide.md` — the Azure
+  CLI, its DevOps extension and the login
+- `dna/doc/guides/install-guide/install-azure-npm-feed-guide.md` — the
+  personal access token for an Azure Artifacts npm feed
 - `dna/doc/guides/install-guide/install-github-cli-guide.md` — the GitHub
   CLI
 - `dna/doc/guides/install-guide/install-flutter-guide.md` — Flutter
