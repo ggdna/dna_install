@@ -1,0 +1,12 @@
+name: dna_install
+description: "DNA layer: install guides for editor, node, tooling and Flutter"
+version: 0.0.0
+repository: https://github.com/ggdna/dna_install.git
+
+environment:
+  sdk: ">=3.13.0 <4.0.0"
+
+dev_dependencies:
+  helix: ^0.1.0
+  lints: ^6.1.0
+  test: ^1.31.2
