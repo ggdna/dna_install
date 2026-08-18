@@ -18,9 +18,16 @@ machine.
   CLI
 - `dna/doc/guides/install-guide/install-flutter-guide.md` — Flutter
 
-The gg specific install guides live in
-[dna_gg](https://github.com/ggdna/dna_gg). The overview links to them and
-says so; add that layer too if you work with gg.
+## Extension point
+
+The overview carries one tagged section: `## [@tooling] Tooling`. A higher
+layer replaces it through an `install-guide.overrides.md` sidecar next to
+the same path and thereby appends its own entries — and, because the
+replacement block runs until the next block, whole sections after it.
+
+[dna_gg](https://github.com/ggdna/dna_gg) does exactly that: it repeats the
+two base entries (GitHub CLI, Flutter), adds `Install gg` and appends a
+`Workspace` section. Add that layer too if you work with gg.
 
 ## Usage
 

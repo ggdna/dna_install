@@ -24,13 +24,7 @@ Follow the guides in order. Pick the Node guide matching your operating system.
 - [Install Node on Windows](./install-guide/install-node-win-guide.md)
 - [Install corepack and pnpm](./install-guide/install-corepack-guide.md)
 
-## Tooling
+## [@tooling] Tooling
 
 - [Install the GitHub CLI](./install-guide/install-github-cli-guide.md)
 - [Install Flutter](./install-guide/install-flutter-guide.md)
-- [Install gg](./install-guide/install-gg-guide.md), if it exists
-
-## Workspace
-
-- [Create a gg workspace](./install-guide/install-gg-workspace-guide.md),
-  if it exists
