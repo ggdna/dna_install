@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "layers": [
+    {
+      "name": "base",
+      "package": "helix",
+      "ecosystem": null,
+      "resolvedVersion": "0.1.0",
+      "via": null,
+      "hash": "0x6883da335b415f9d"
+    },
+    {
+      "name": "self",
+      "package": null,
+      "ecosystem": null,
+      "resolvedVersion": null,
+      "via": null,
+      "hash": "0x33a0da53cab516b0"
+    }
+  ],
+  "claude": {
+    "claudeMdInclude": null
+  },
+  "baseVersion": "0.1.0",
+  "baseHash": "0x6883da335b415f9d",
+  "hash": null,
+  "instances": [
+    {
+      "path": "doc/guides/install-guide.md",
+      "hash": "0x879f16da2e6e7153"
+    },
+    {
+      "path": "doc/guides/install-guide/install-brew-on-mac-guide.md",
+      "hash": "0x5bf663dc011c4330"
+    },
+    {
+      "path": "doc/guides/install-guide/install-corepack-guide.md",
+      "hash": "0x906ecd19a3b2366b"
+    },
+    {
+      "path": "doc/guides/install-guide/install-flutter-guide.md",
+      "hash": "0x883c40d890bd3d5e"
+    },
+    {
+      "path": "doc/guides/install-guide/install-github-cli-guide.md",
+      "hash": "0xcce9cbcd56f78b1f"
+    },
+    {
+      "path": "doc/guides/install-guide/install-node-mac-guide.md",
+      "hash": "0x1f4eb7cf63b5c9db"
+    },
+    {
+      "path": "doc/guides/install-guide/install-node-win-guide.md",
+      "hash": "0x782756eb0ff83a0d"
+    },
+    {
+      "path": "doc/guides/install-guide/install-vscode-guide.md",
+      "hash": "0xa0da6a6877bb94c2"
+    }
+  ]
+}
