@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xeb3fa49b0f71c95c"
+      "hash": "0xbe88eb4256745ee1"
     }
   ],
   "claude": {
@@ -24,6 +24,10 @@
   "baseVersion": "0.2.0",
   "baseHash": "0x705e486e88a93125",
   "instances": [
+    {
+      "path": ".claude/skills/install/SKILL.md",
+      "hash": "0x29c4ded946b50053"
+    },
     {
       "path": "doc/guides/install-guide.md",
       "hash": "0x63af66f5953969aa"
