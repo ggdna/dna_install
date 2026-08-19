@@ -3,15 +3,14 @@
 The DNA layer that carries the install guides for a new development
 machine.
 
-## Content
+## Guides
 
 - `dna/doc/guides/install-guide.md` — the ordered overview, start here
 - `dna/doc/guides/install-guide/install-vscode-guide.md` — the editor
 - `dna/doc/guides/install-guide/install-brew-on-mac-guide.md` — the
   package manager on Mac
 - `dna/doc/guides/install-guide/install-node-mac-guide.md`,
-  `dna/doc/guides/install-guide/install-node-win-guide.md` — Node per
-  operating system
+  `install-node-win-guide.md` — Node per operating system
 - `dna/doc/guides/install-guide/install-corepack-guide.md` — corepack and
   pnpm
 - `dna/doc/guides/install-guide/install-azure-cli-guide.md` — the Azure
@@ -22,16 +21,26 @@ machine.
   CLI
 - `dna/doc/guides/install-guide/install-flutter-guide.md` — Flutter
 
-## Extension point
+## Skills
 
-The overview carries one tagged section: `## [@tooling] Tooling`. A higher
-layer replaces it through an `install-guide.overrides.md` sidecar next to
-the same path and thereby appends its own entries — and, because the
-replacement block runs until the next block, whole sections after it.
+- `/install` — runs the version command of every tool the overview names
+  and reports what is missing before installing anything
 
-[dna_gg](https://github.com/ggdna/dna_gg) does exactly that: it repeats the
-two base entries (GitHub CLI, Flutter), adds `Install gg` and appends a
-`Workspace` section. Add that layer too if you work with gg.
+## Layers
+
+Orthogonal: this layer carries only its own topic and is combined with
+other layers by the consuming repo.
+
+The overview marks its tooling section with the tag `@tooling`, so a
+higher layer can extend it. [dna_gg](https://github.com/ggdna/dna_gg)
+does that to add the gg install guides.
+
+## Variables
+
+- `dnaCopyrightHolder` — the name in the license header of every file
+- `dnaAzureDevOpsOrg`, `dnaAzureDevOpsProject` — the Azure DevOps
+  organization and project the login defaults to
+- `dnaAzureNpmFeed` — the Azure Artifacts feed packages come from
 
 ## Usage
 
@@ -39,17 +48,14 @@ Declare it as a dev-dependency and initialize once:
 
 ```bash
 pnpm add -D @ggdna/dna-install   # TypeScript projects
-dart pub add dev:dna_install     # Dart projects
+dart pub add dev:dna_install         # Dart projects
 helix init
 ```
 
-The placed test instantiates and verifies the DNA on every test run. This
-layer is orthogonal: it carries only its own topic and is combined with
-`dna_base` and other layers by the consuming repo.
+The placed test instantiates and verifies the DNA on every test run.
 
 ## Development
 
-This repo has `role: "dna"` in `dna/_dna.json`: the `dna/` folder is
-authored by hand, never generated. The repo instantiates its own DNA — run
-`dart test` after changes; commit first (a file the DNA would overwrite
-must not carry uncommitted work).
+The `dna/` folder is hand-authored source and is never generated. The repo
+instantiates its own DNA — run `dart test` after changes; commit first, a
+file the DNA would overwrite must not carry uncommitted work.
