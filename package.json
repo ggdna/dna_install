@@ -1,6 +1,6 @@
 {
   "name": "@ggdna/dna-install",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "DNA layer: install guides for editor, node, Azure access and tooling",
   "keywords": [
     "dna",

@@ -1,6 +1,6 @@
 name: dna_install
 description: "DNA layer: install guides for editor, node, Azure access and tooling"
-version: 0.0.0
+version: 0.1.0
 repository: https://github.com/ggdna/dna_install.git
 
 environment:
