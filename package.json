@@ -1,6 +1,6 @@
 {
   "name": "@ggdna/dna-install",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "DNA layer: install guides for editor, node, Azure access and tooling",
   "keywords": [
     "dna",
@@ -35,7 +35,7 @@
     "format:check": "prettier --check ."
   },
   "devDependencies": {
-    "@types/node": "^26.6.1",
-    "prettier": "^3.9.6"
+    "@types/node": "^26.6.2",
+    "prettier": "^3.9.8"
   }
 }
