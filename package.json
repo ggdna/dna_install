@@ -1,7 +1,7 @@
 {
   "name": "@ggdna/dna-install",
   "version": "0.2.0",
-  "description": "DNA layer: install guides for editor, node, Azure access and tooling",
+  "description": "Gives a repo the install guides that set up a development machine, and a skill that reports what is missing.",
   "keywords": [
     "dna",
     "helix",
