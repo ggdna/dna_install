@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.12.0",
+      "resolvedVersion": "1.15.2",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -15,19 +15,23 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xbe88eb4256745ee1"
+      "hash": "0x6d44398210e8ef7b"
     }
   ],
   "claude": {
     "claudeMdInclude": null,
     "claudeMdFromDna": false
   },
-  "baseVersion": "1.12.0",
+  "baseVersion": "1.15.2",
   "baseHash": "0x6883da335b415f9d",
   "instances": [
     {
       "path": ".claude/skills/install/SKILL.md",
       "hash": "0x29c4ded946b50053"
+    },
+    {
+      "path": ".pubignore",
+      "hash": "0x72f2c2f11fa03824"
     },
     {
       "path": "doc/guides/install-guide.md",
