@@ -26,6 +26,12 @@ machine.
 - `/install` — runs the version command of every tool the overview names
   and reports what is missing before installing anything
 
+## Publishing
+
+`dna/dot-pubignore` keeps `/doc/guides/` out of the package `dart pub publish`
+uploads. helix joins it with the ignore files of the other layers into the
+project's `.pubignore`.
+
 ## Layers
 
 Orthogonal: this layer carries only its own topic and is combined with
