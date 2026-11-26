@@ -11,5 +11,5 @@ gg dna init
 gg dna build
 ```
 
-Then open `doc/guides/install-guide.md`, or type `/install` in Claude
+Then open `doc/en/guides/install-guide.md`, or type `/install` in Claude
 Code to set up a machine step by step.
