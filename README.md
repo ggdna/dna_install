@@ -5,21 +5,29 @@ machine.
 
 ## Guides
 
-- `dna/doc/guides/install-guide.md` — the ordered overview, start here
-- `dna/doc/guides/install-guide/install-vscode-guide.md` — the editor
-- `dna/doc/guides/install-guide/install-brew-on-mac-guide.md` — the
+- `dna/doc/en/guides/install-guide.md` — the ordered overview, start here
+- `dna/doc/en/guides/install-guide/install-vscode-guide.md` — the editor
+- `dna/doc/en/guides/install-guide/install-brew-on-mac-guide.md` — the
   package manager on Mac
-- `dna/doc/guides/install-guide/install-node-mac-guide.md`,
+- `dna/doc/en/guides/install-guide/install-node-mac-guide.md`,
   `install-node-win-guide.md` — Node per operating system
-- `dna/doc/guides/install-guide/install-pnpm-guide.md` — pnpm, the
+- `dna/doc/en/guides/install-guide/install-pnpm-guide.md` — pnpm, the
   package manager of the TypeScript repos
-- `dna/doc/guides/install-guide/install-azure-cli-guide.md` — the Azure
+- `dna/doc/en/guides/install-guide/install-azure-cli-guide.md` — the Azure
   CLI, its DevOps extension and the login
-- `dna/doc/guides/install-guide/install-azure-npm-feed-guide.md` — the
+- `dna/doc/en/guides/install-guide/install-azure-npm-feed-guide.md` — the
   personal access token for an Azure Artifacts npm feed
-- `dna/doc/guides/install-guide/install-github-cli-guide.md` — the GitHub
+- `dna/doc/en/guides/install-guide/install-github-cli-guide.md` — the GitHub
   CLI
-- `dna/doc/guides/install-guide/install-flutter-guide.md` — Flutter
+- `dna/doc/en/guides/install-guide/install-flutter-guide.md` — Flutter
+
+Every file of `dna/doc/en/` also ships in German and Farsi, with the
+same name:
+
+- `dna/doc/de/guides/`
+- `dna/doc/de/guides/install-guide/`
+- `dna/doc/fa/guides/`
+- `dna/doc/fa/guides/install-guide/`
 
 ## Skills
 
@@ -28,7 +36,7 @@ machine.
 
 ## Publishing
 
-`dna/dot-pubignore` keeps `/doc/guides/` out of the package `dart pub publish`
+`dna/dot-pubignore` keeps `/doc/*/guides/` out of the package `dart pub publish`
 uploads. helix joins it with the ignore files of the other layers into the
 project's `.pubignore`.
 

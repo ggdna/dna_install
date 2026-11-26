@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.16.0",
+      "resolvedVersion": "1.18.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xdd129fef2172ce61"
+      "hash": "0x3c900ab652461666"
     }
   ],
   "claude": {
@@ -23,57 +23,138 @@
     "claudeMdFromDna": false,
     "blockHash": null
   },
-  "baseVersion": "1.16.0",
+  "baseVersion": "1.18.0",
   "baseHash": "0x6883da335b415f9d",
   "configHash": "0x0d4ac600e4df748f",
+  "gitignoreHash": "0x1b0ee74d5e941279",
   "instances": [
     {
       "path": ".claude/skills/install/SKILL.md",
-      "hash": "0x29c4ded946b50053"
+      "hash": "0xd62a3f4ca9cbd6ed"
     },
     {
       "path": ".pubignore",
-      "hash": "0x7f52f02daa607801"
+      "hash": "0x340ad91b26c67100"
     },
     {
-      "path": "doc/guides/install-guide.md",
+      "path": "doc/de/guides/install-guide.md",
+      "hash": "0xb68a19b660d8a3b2"
+    },
+    {
+      "path": "doc/de/guides/install-guide/install-azure-cli-guide.md",
+      "hash": "0x9eb6f718690b139c"
+    },
+    {
+      "path": "doc/de/guides/install-guide/install-azure-npm-feed-guide.md",
+      "hash": "0x29969ffb7db4c328"
+    },
+    {
+      "path": "doc/de/guides/install-guide/install-brew-on-mac-guide.md",
+      "hash": "0x580a1aebc43ced54"
+    },
+    {
+      "path": "doc/de/guides/install-guide/install-flutter-guide.md",
+      "hash": "0xd49611ed9a8071a2"
+    },
+    {
+      "path": "doc/de/guides/install-guide/install-github-cli-guide.md",
+      "hash": "0x95dae0ab0752ad1c"
+    },
+    {
+      "path": "doc/de/guides/install-guide/install-node-mac-guide.md",
+      "hash": "0x973e31429adf2f9e"
+    },
+    {
+      "path": "doc/de/guides/install-guide/install-node-win-guide.md",
+      "hash": "0xb6b0bc893bafb301"
+    },
+    {
+      "path": "doc/de/guides/install-guide/install-pnpm-guide.md",
+      "hash": "0x19662f19d0b353f3"
+    },
+    {
+      "path": "doc/de/guides/install-guide/install-vscode-guide.md",
+      "hash": "0x966817fb7123fb53"
+    },
+    {
+      "path": "doc/en/guides/install-guide.md",
       "hash": "0xcf1ba70787cf4cfe"
     },
     {
-      "path": "doc/guides/install-guide/install-azure-cli-guide.md",
+      "path": "doc/en/guides/install-guide/install-azure-cli-guide.md",
       "hash": "0xe0206afa5fc5b085"
     },
     {
-      "path": "doc/guides/install-guide/install-azure-npm-feed-guide.md",
+      "path": "doc/en/guides/install-guide/install-azure-npm-feed-guide.md",
       "hash": "0x902df0b6dc38a92b"
     },
     {
-      "path": "doc/guides/install-guide/install-brew-on-mac-guide.md",
+      "path": "doc/en/guides/install-guide/install-brew-on-mac-guide.md",
       "hash": "0x5bf663dc011c4330"
     },
     {
-      "path": "doc/guides/install-guide/install-flutter-guide.md",
+      "path": "doc/en/guides/install-guide/install-flutter-guide.md",
       "hash": "0x883c40d890bd3d5e"
     },
     {
-      "path": "doc/guides/install-guide/install-github-cli-guide.md",
+      "path": "doc/en/guides/install-guide/install-github-cli-guide.md",
       "hash": "0xcce9cbcd56f78b1f"
     },
     {
-      "path": "doc/guides/install-guide/install-node-mac-guide.md",
+      "path": "doc/en/guides/install-guide/install-node-mac-guide.md",
       "hash": "0x1f4eb7cf63b5c9db"
     },
     {
-      "path": "doc/guides/install-guide/install-node-win-guide.md",
+      "path": "doc/en/guides/install-guide/install-node-win-guide.md",
       "hash": "0x782756eb0ff83a0d"
     },
     {
-      "path": "doc/guides/install-guide/install-pnpm-guide.md",
+      "path": "doc/en/guides/install-guide/install-pnpm-guide.md",
       "hash": "0x4a86eefb53b65f3b"
     },
     {
-      "path": "doc/guides/install-guide/install-vscode-guide.md",
+      "path": "doc/en/guides/install-guide/install-vscode-guide.md",
       "hash": "0xa0da6a6877bb94c2"
+    },
+    {
+      "path": "doc/fa/guides/install-guide.md",
+      "hash": "0x451d80be7f2f75a5"
+    },
+    {
+      "path": "doc/fa/guides/install-guide/install-azure-cli-guide.md",
+      "hash": "0x5ab81ac1142396e8"
+    },
+    {
+      "path": "doc/fa/guides/install-guide/install-azure-npm-feed-guide.md",
+      "hash": "0x01f07ab117a74d37"
+    },
+    {
+      "path": "doc/fa/guides/install-guide/install-brew-on-mac-guide.md",
+      "hash": "0x28f3baa33872f59a"
+    },
+    {
+      "path": "doc/fa/guides/install-guide/install-flutter-guide.md",
+      "hash": "0x3e96f4fb207e50c6"
+    },
+    {
+      "path": "doc/fa/guides/install-guide/install-github-cli-guide.md",
+      "hash": "0x220d31389db63e8e"
+    },
+    {
+      "path": "doc/fa/guides/install-guide/install-node-mac-guide.md",
+      "hash": "0x5cd76801799be6a7"
+    },
+    {
+      "path": "doc/fa/guides/install-guide/install-node-win-guide.md",
+      "hash": "0x66ea3de5a058b9c6"
+    },
+    {
+      "path": "doc/fa/guides/install-guide/install-pnpm-guide.md",
+      "hash": "0xfc2177cc7e90c0fe"
+    },
+    {
+      "path": "doc/fa/guides/install-guide/install-vscode-guide.md",
+      "hash": "0xc471865a07541430"
     }
   ]
 }
