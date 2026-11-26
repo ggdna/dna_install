@@ -11,7 +11,7 @@ found in the LICENSE file in the root of this package.
 The GitHub CLI (`gh`) is used by our workflow scripts to create, merge and
 watch pull requests.
 
-## Install on Mac
+## @mac Install on Mac
 
 Make sure [brew is installed](./install-brew-on-mac-guide.md)
 
@@ -19,7 +19,7 @@ Make sure [brew is installed](./install-brew-on-mac-guide.md)
 brew install gh
 ```
 
-## Install on Windows
+## @windows Install on Windows
 
 Visit <https://cli.github.com>
 
@@ -31,13 +31,13 @@ Alternatively install it with winget:
 winget install --id GitHub.cli
 ```
 
-## Install on Linux / WSL
+## @linux Install on Linux / WSL
 
 ```bash
 sudo apt install gh
 ```
 
-## Verify installation
+## @installation Verify installation
 
 Restart your terminal when it was open during the installation, then run:
 

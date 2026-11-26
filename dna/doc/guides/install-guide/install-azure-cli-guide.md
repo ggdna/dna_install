@@ -11,7 +11,7 @@ found in the LICENSE file in the root of this package.
 Install the Azure CLI when your repositories live in Azure DevOps. Skip
 this guide otherwise.
 
-## Install the command line
+## @command Install the command line
 
 On Windows, run:
 
@@ -34,13 +34,13 @@ Check the installation:
 az --version
 ```
 
-## Add the Azure DevOps extension
+## @azure Add the Azure DevOps extension
 
 ```bash
 az extension add --name azure-devops
 ```
 
-## Log in
+## @log Log in
 
 ```bash
 az login
@@ -59,7 +59,7 @@ The error lists your tenants — take the long number and letter
 combination, not the short name. Can't find it? Follow
 <https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id>
 
-## Set the default organization and project
+## @default Set the default organization and project
 
 ```bash
 az devops configure --defaults organization=https://dev.azure.com/dnaAzureDevOpsOrg project=dnaAzureDevOpsProject
@@ -67,7 +67,7 @@ az devops configure --defaults organization=https://dev.azure.com/dnaAzureDevOps
 
 Every later `az devops` command uses these defaults.
 
-## Get access to the package feed
+## @access Get access to the package feed
 
 Packages come from an Azure Artifacts feed, not from the public registry.
 Follow the [Azure npm feed guide](./install-azure-npm-feed-guide.md).

@@ -11,7 +11,7 @@ found in the LICENSE file in the root of this package.
 Flutter ships with the Dart SDK. Installing Flutter therefore also gives you
 `dart`, which is needed to install [gg](./install-gg-guide.md).
 
-## Install on Mac
+## @mac Install on Mac
 
 Make sure [brew is installed](./install-brew-on-mac-guide.md)
 
@@ -19,7 +19,7 @@ Make sure [brew is installed](./install-brew-on-mac-guide.md)
 brew install --cask flutter
 ```
 
-## Install on Windows
+## @windows Install on Windows
 
 Download the installation bundle from
 <https://docs.flutter.dev/get-started/install/windows>
@@ -34,7 +34,7 @@ select `Path`, click `Edit` and add the folder.
 
 Restart your terminal.
 
-## Install on Linux / WSL
+## @linux Install on Linux / WSL
 
 On Windows, make sure WSL and Ubuntu are installed
 
@@ -50,14 +50,14 @@ echo 'export PATH="$HOME/flutter/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-## Verify installation
+## @installation Verify installation
 
 ```bash
 flutter --version
 dart --version
 ```
 
-## Check the setup
+## @setup Check the setup
 
 ```bash
 flutter doctor

@@ -11,8 +11,8 @@ machine.
   package manager on Mac
 - `dna/doc/guides/install-guide/install-node-mac-guide.md`,
   `install-node-win-guide.md` — Node per operating system
-- `dna/doc/guides/install-guide/install-corepack-guide.md` — corepack and
-  pnpm
+- `dna/doc/guides/install-guide/install-pnpm-guide.md` — pnpm, the
+  package manager of the TypeScript repos
 - `dna/doc/guides/install-guide/install-azure-cli-guide.md` — the Azure
   CLI, its DevOps extension and the login
 - `dna/doc/guides/install-guide/install-azure-npm-feed-guide.md` — the
