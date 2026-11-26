@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `dna_install` package.
-const String dnaInstallVersion = '0.4.0';
+const String dnaInstallVersion = '0.5.0';
