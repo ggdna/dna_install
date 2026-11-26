@@ -16,12 +16,12 @@ found in the LICENSE file in the root of this package.
 - [Install NVM](#install-nvm)
 - [Install Node via NVM](#install-node-via-nvm)
 
-## Uninstall Node
+## @uninstall Uninstall Node
 
 We are using `nvm` to install and select Node versions.
 If you have already installed `nvm`, you can skip this and the next step.
 
-### Clean cache
+### @clean Clean cache
 
 [Microsoft](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows#install-nvm-windows-nodejs-and-npm)
 
@@ -29,7 +29,7 @@ If you have already installed `nvm`, you can skip this and the next step.
 npm cache clean --force
 ```
 
-### Run uninstaller
+### @uninstaller Run uninstaller
 
 Press `Windows`
 
@@ -39,11 +39,11 @@ Click `Uninstall Node.js`
 
 Follow the instructions
 
-### Remove remaining Node folders
+### @remaining Remove remaining Node folders
 
 [Remove remaining Node folders](https://stackoverflow.com/questions/20711240/how-to-completely-remove-node-js-from-windows)
 
-### Remove node path from PATH variable
+### @node Remove node path from PATH variable
 
 Remove Node from the PATH variable:
 
@@ -65,7 +65,7 @@ When existing, remove the entry
 
 Close the dialog
 
-## Install NVM
+## @nvm Install NVM
 
 [Source](https://github.com/coreybutler/nvm-windows#installation--upgrades)
 
@@ -77,7 +77,7 @@ Execute `nvm-setup.exe`
 
 Follow the instructions
 
-## Install Node via NVM
+## @node-nvm Install Node via NVM
 
 Press `Windows`
 

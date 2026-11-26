@@ -10,21 +10,21 @@ found in the LICENSE file in the root of this package.
 
 Follow the guides in order. Pick the Node guide matching your operating system.
 
-## Editor
+## @editor Editor
 
 - [Install Vscode](./install-guide/install-vscode-guide.md)
 
-## Package manager
+## @package Package manager
 
 - [Install Brew on Mac](./install-guide/install-brew-on-mac-guide.md)
 
-## Node
+## @node Node
 
 - [Install Node on Mac](./install-guide/install-node-mac-guide.md)
 - [Install Node on Windows](./install-guide/install-node-win-guide.md)
-- [Install corepack and pnpm](./install-guide/install-corepack-guide.md)
+- [Install pnpm](./install-guide/install-pnpm-guide.md)
 
-## Azure
+## @azure Azure
 
 - [Install the Azure CLI](./install-guide/install-azure-cli-guide.md)
 - [Authenticate against the Azure npm feed](./install-guide/install-azure-npm-feed-guide.md)

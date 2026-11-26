@@ -16,21 +16,21 @@ found in the LICENSE file in the root of this package.
 Read `doc/guides/install-guide.md` and follow the guides it lists, in
 order.
 
-## 1. Check what is installed
+## @installed 1. Check what is installed
 
 Run the version command of each tool the overview names, and report the
 ones that are missing or too old.
 
 Do not install anything yet.
 
-## 2. Report
+## @report 2. Report
 
 List the missing tools with the guide that installs each one.
 
 Name the guides that do not apply to this machine, so the user sees they
 were considered.
 
-## 3. Install
+## @install 3. Install
 
 Follow the guides for the missing tools, one at a time, and confirm each
 one with its version command.

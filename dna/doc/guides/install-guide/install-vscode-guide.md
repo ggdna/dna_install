@@ -8,13 +8,13 @@ found in the LICENSE file in the root of this package.
 
 # Install Vscode
 
-## Install Vscode
+## @vscode Install Vscode
 
 Visit <https://code.visualstudio.com/download>
 
 Download and install
 
-## Install extensions
+## @extensions Install extensions
 
 When opening this project the first time, you will be asked to install
 recommended workspace extensions. Click on `Install`.

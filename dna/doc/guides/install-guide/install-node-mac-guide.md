@@ -10,19 +10,19 @@ found in the LICENSE file in the root of this package.
 
 Make sure [brew is installed](./install-brew-on-mac-guide.md)
 
-## Install nvm with Homebrew
+## @nvm Install nvm with Homebrew
 
 ```bash
 brew install nvm
 ```
 
-## Create nvm directory (if not created automatically)
+## @nvm-directory Create nvm directory (if not created automatically)
 
 ```bash
 mkdir ~/.nvm
 ```
 
-## Add nvm to your shell configuration
+## @nvm-shell Add nvm to your shell configuration
 
 Add the following lines to your `~/.zshrc`:
 
@@ -32,19 +32,19 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion"
 ```
 
-## Apply changes
+## @changes Apply changes
 
 ```bash
 source ~/.zshrc
 ```
 
-## Verify installation
+## @installation Verify installation
 
 ```bash
 command -v nvm
 ```
 
-## Install node
+## @node Install node
 
 ```bash
 nvm install lts

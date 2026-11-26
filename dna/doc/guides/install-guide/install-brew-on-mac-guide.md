@@ -12,7 +12,7 @@ found in the LICENSE file in the root of this package.
 other tools on Mac, e.g. [Node](./install-node-mac-guide.md) and
 [Flutter](./install-flutter-guide.md).
 
-## Install Xcode command line tools
+## @xcode Install Xcode command line tools
 
 Homebrew needs the Apple command line tools:
 
@@ -20,13 +20,13 @@ Homebrew needs the Apple command line tools:
 xcode-select --install
 ```
 
-## Install Homebrew
+## @homebrew Install Homebrew
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## Add brew to your shell configuration
+## @brew Add brew to your shell configuration
 
 On Apple Silicon, Homebrew is installed to `/opt/homebrew` and is not in your
 `PATH` yet:
@@ -39,13 +39,13 @@ source ~/.zprofile
 On Intel Macs, Homebrew is installed to `/usr/local` and is available right
 away.
 
-## Verify installation
+## @installation Verify installation
 
 ```bash
 brew --version
 ```
 
-## Check the setup
+## @setup Check the setup
 
 ```bash
 brew doctor
@@ -54,7 +54,7 @@ brew doctor
 `Your system is ready to brew.` means everything is fine. Warnings about
 unrelated packages can be ignored.
 
-## Keep brew up to date
+## @brew-date Keep brew up to date
 
 ```bash
 brew update
